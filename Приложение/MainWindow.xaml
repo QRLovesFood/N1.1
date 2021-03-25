@@ -1,0 +1,20 @@
+﻿<Window x:Class="Приложение.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Приложение"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Tok" Content="Сила тока = " HorizontalAlignment="Left" Margin="479,185,0,0" VerticalAlignment="Top" Height="38" Width="143" FontSize="24"/>
+        <Label x:Name="Power" Content="Напряжение = " HorizontalAlignment="Left" Margin="148,107,0,0" VerticalAlignment="Top" Height="38" Width="172" FontSize="24"/>
+        <Label x:Name="Time" Content="Сопротивление =" HorizontalAlignment="Left" Margin="119,268,0,0" VerticalAlignment="Top" Height="38" Width="201" FontSize="24"/>
+        <TextBox x:Name="sop" HorizontalAlignment="Left" Height="40" Margin="325,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Text="1"/>
+        <Button x:Name="Button" Content="Вычислить" HorizontalAlignment="Left" Margin="479,240,0,0" VerticalAlignment="Top" Width="129" FontSize="24"/>
+        <TextBox x:Name="nap" HorizontalAlignment="Left" Height="40" Margin="325,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="24" Text="1"/>
+        <Label Content="/" HorizontalAlignment="Left" Margin="363,183,0,0" VerticalAlignment="Top" FontSize="32"/>
+        <Label x:Name="pow" Content="1" HorizontalAlignment="Left" Margin="627,185,0,0" VerticalAlignment="Top" Height="38" Width="72" FontSize="24"/>
+
+    </Grid>
+</Window>
